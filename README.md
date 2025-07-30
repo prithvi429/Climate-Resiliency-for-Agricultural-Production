@@ -46,4 +46,4 @@ python -m unittest climate_resiliency_assessment/tests/test_folder_structure.py
 ```
 
 ## License
-See LICENSE file for details.
+See LICENSE file for details
