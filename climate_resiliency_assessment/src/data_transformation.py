@@ -1,3 +1,13 @@
+# Script for transforming and cleaning data
+
+def clean_climate_data(data):
+    pass
+
+def clean_crop_data(data):
+    pass
+
+def clean_economic_data(data):
+    pass
 import pandas as pd
 
 def clean_climate_data(df):

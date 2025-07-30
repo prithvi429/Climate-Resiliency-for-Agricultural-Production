@@ -8,9 +8,9 @@ from policy_analysis import analyze_government_policies
 
 def main():
     # Ingest data
-    climate_data = ingest_climate_data('../data/raw/climate_data.csv')
-    crop_data = ingest_crop_data('../data/raw/crop_data.csv')
-    economic_data = ingest_economic_data('../data/raw/economic_data.csv')
+    climate_data = ingest_climate_data('climate_resiliency_assessment/data/raw/climate_data.csv')
+    crop_data = ingest_crop_data('climate_resiliency_assessment/data/raw/crop_data.csv')
+    economic_data = ingest_economic_data('climate_resiliency_assessment/data/raw/economic_data.csv')
 
     # Clean data
     cleaned_climate_data = clean_climate_data(climate_data)

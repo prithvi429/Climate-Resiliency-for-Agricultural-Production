@@ -1,14 +1,12 @@
 import pandas as pd
 
-def analyze_climate_data(df):
-    """Analyze climate data for trends and anomalies."""
-    trends = df.describe()  # Basic statistical analysis
-    return trends
+def analyze_climate_data(data):
+    print("Analyzing climate data")
+    return "Climate trends summary"
 
-def analyze_crop_performance(df):
-    """Analyze crop performance data."""
-    yield_summary = df.groupby('crop').agg({'yield': ['mean', 'std']})
-    return yield_summary
+def analyze_crop_performance(data):
+    print("Analyzing crop performance")
+    return "Crop performance summary"
 
 if __name__ == "__main__":
     climate_data = pd.read_csv('../data/processed/cleaned_climate_data.csv')

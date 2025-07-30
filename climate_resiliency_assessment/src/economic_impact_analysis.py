@@ -1,9 +1,8 @@
 import pandas as pd
 
 def evaluate_economic_impact(df):
-    """Evaluate the economic impact of climate disruptions."""
-    total_loss = df['loss'].sum()
-    return total_loss
+    print("Evaluating economic impact")
+    return 0
 
 if __name__ == "__main__":
     economic_data = pd.read_csv('../data/processed/cleaned_economic_data.csv')
