@@ -47,3 +47,6 @@ python -m unittest climate_resiliency_assessment/tests/test_folder_structure.py
 
 ## License
 See LICENSE file for details
+
+
+C:\Users\DELL\Climate-Resiliency-for-Agricultural-Production\Recording 2025-07-30 183902.zip
